@@ -10,7 +10,7 @@ def update(frame_number, rolls, faces, frequencies):
     """Configures bar plot contents for each animation frame."""
     # roll die and update frequencies
     for i in range(rolls):
-        frequencies[random.randrange(1, 7) - 1] += 1 
+        frequencies[random.randrange(1, 6) - 1] += 1 
 
     # reconfigure plot for updated die frequencies
     plt.cla()  # clear old contents contents of current Figure
