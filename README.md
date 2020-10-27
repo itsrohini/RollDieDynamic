@@ -1,3 +1,3 @@
 # RollDieDynamic
 Hello
-Its a die roll game.
+Its a roll die game.
